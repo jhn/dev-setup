@@ -12,6 +12,10 @@ brew install iterm2
 brew install macvim
 brew install intellij-idea
 
+# git credentials cacher https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
+$ brew tap microsoft/git
+$ brew install --cask git-credential-manager-core
+
 #Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 0.02
 
